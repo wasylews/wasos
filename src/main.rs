@@ -1,8 +1,8 @@
 #![no_std]
 #![no_main]
 
-mod sbi;
 mod io;
+mod sbi;
 
 use core::{arch::asm, mem, panic::PanicInfo, ptr};
 
